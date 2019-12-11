@@ -1,0 +1,101 @@
+/*
+* @Author: hp
+* @Date:   2019-12-08 20:14:37
+* @Last Modified by:   hp
+* @Last Modified time: 2019-12-11 09:54:54
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	height: 25px;
+	background-color: #ccc;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+.head img{
+	padding-left: 200px;
+	padding-top: 5px;
+}
+.warning{
+	float: right;
+	width: 1490px;
+	height: 25px;
+	position: relative;
+	overflow: hidden;
+}
+.div1{
+	width: 323px;
+	height: 20px;
+	color: red;
+	font-size: 13px;
+	padding-top: 4px;
+	position: absolute;
+	left: 1490px;
+}
+.box{
+	width: 1200px;
+	height: 390px;
+	margin:auto;
+	position: relative;
+	overflow: hidden;
+
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color:white;
+	top: 175px;
+	line-height: 50px;
+	background: red;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left:30px;
+}
+#right{
+	right:30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+
+}
+.active{
+	color: red;
+}
+.nav .active{
+	background: red;
+	color: white; 
+}
